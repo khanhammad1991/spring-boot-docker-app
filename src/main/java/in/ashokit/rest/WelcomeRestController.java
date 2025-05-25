@@ -18,7 +18,7 @@ public class WelcomeRestController {
 	@GetMapping
 	public String welcomeMsg() {
 		logger.info("***** welcomeMsg() execution start *****");
-		String msg = "Welcome to Hammad's Docker Hub!";
+		String msg = "Welcome to Java Spring boot Application ! Hammad's Docker Hub!";
 		logger.info("***** welcomeMsg() execution end *****");
 		String s = "hello";
 		logger.info("******************************************************************");
