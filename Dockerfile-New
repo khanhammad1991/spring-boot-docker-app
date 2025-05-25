@@ -20,7 +20,7 @@ WORKDIR /app
 COPY --from=build /app/target/spring-boot-docker-app.jar /app/spring-boot-docker-app.jar
 
 # Expose the port the app runs on
-EXPOSE 8080
+EXPOSE 8082
 
 # Command to run the application
 ENTRYPOINT ["java", "-jar", "/app/spring-boot-docker-app.jar"]
